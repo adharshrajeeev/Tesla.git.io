@@ -1,0 +1,66 @@
+
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+
+
+.navbar-brand img{
+    height: 60px;
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Container holding the image and the text */
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+    
+  /* Centered text */
+.centered {
+   
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p4,.p3,.p2,.p1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn1{
+   
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 15px;
+    border:3px;
+    
+}
+
+.btn1:hover{
+    background: white;
+}
+
+
+.centered .page1{
+    font-size: 400px;
+}
